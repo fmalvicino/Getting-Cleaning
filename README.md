@@ -10,7 +10,7 @@ First, the Script reads the train and test datasets. The it merges them and fina
 
 Then it extracts only the measurements on the mean and standard deviation for each measurement. This can be achieved selecting variables that contain the word 'mean' or 'std' in their names.
 
-To uses descriptive activity names to name the activities in the data set, the raR uses the merge function with the activity description file and the dataset created in the step described above.
+To use descriptive activity names to name the activities in the data set, the raR uses the merge function with the activity description file and the dataset created in the step described above.
 
 To turn the variable names into descriptive ones, raR replaces the 'short names' with appropriate labels.
 
