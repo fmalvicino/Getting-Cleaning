@@ -3,6 +3,8 @@
 
 run_analysis.R (raR) uses 6 libraries (reshape2, data.table, plyr, dplyr, tidyr, stringr). If any of them has not been installed, it might be added using "install.packages()" in R.
 
+To run this script, the working directory must be set at "C:/.../getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"
+
 First, the Script reads the train and test datasets. The it merges them and finally it uses features names to set the variable (columns) names.
 
 Then it extracts only the measurements on the mean and standard deviation for each measurement. This can be achieved selecting variables that contain the word 'mean' or 'std' in their names.
