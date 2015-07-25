@@ -7,9 +7,9 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-#set working directory
-setwd("C:/Users/F/Downloads/R/Getting and Cleaning Data")
-
+#to run the script, set working directory where you have the folders with the files.
+#The script assumes that the data source files are in the a directory called 
+# "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"
 #Reading 'train'data
 X_Train = read.table(file = "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt", header = FALSE)
 Y_Train = read.table(file = "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/Y_train.txt", header = FALSE)
