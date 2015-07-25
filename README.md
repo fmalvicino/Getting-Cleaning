@@ -1,7 +1,7 @@
 # Getting-Cleaning Data
 ## Readme file. "How run_analysis.R works"
 
-run_analysis.R (raR) uses 6 libraries (reshape2, data.table, plyr, dplyr, tidyr, stringr). If any of them has not been installed, it might be added using "install.packages()" in R.
+run_analysis.R (raR) uses 6 libraries (reshape2, data.table, plyr, dplyr, tidyr, stringr). If any of them has not been installed, it might be added using "install.packages()" in R. There is a commentary as an example at the beginning of the script
 
 To run this script, the working directory must be set at "C:/.../getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"
 This project also has a Code Book with details on variables.
